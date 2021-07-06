@@ -1,0 +1,403 @@
+body{
+    margin: 1px;
+    padding: 1px;
+    background-color: hsl(218, 28%, 13%);
+    }
+ 
+
+.top-nav-bar
+{ 
+height: 57px;
+top: 0;
+position: static;
+background: none;
+margin-bottom: 20px;
+border-bottom: 5px;
+z-index: 2;
+}
+.logo
+{
+ height: 40px; 
+ margin: 5px 10px; 
+}
+.menu-bar
+{
+    width: 50%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li
+{
+    border-left: 1px;
+    list-style-type: none;
+    padding: 5px 35px;
+    text-align: center;
+    background-color: none;
+    cursor: pointer;
+}
+.menu-bar ul li a
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.aligncenter
+{
+ text-align: center;
+}
+.button
+{
+    padding: 15px 15px;
+    color: white;
+   border-radius: 15px;
+  background-color: hsl(176, 68%, 64%);  
+  font-weight: 400, 700;
+  cursor: pointer;
+  margin: 0 0 0 600px 
+}
+.objective{
+    text-align: center;
+    color: white;
+}
+.icon{
+    
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+.aim{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: calc(100%/3);
+}
+.aim p{
+    font-size: 14px;
+}
+.stay{
+
+    color: white;
+    flex-flow: row wrap;
+text-align: center;
+    margin: 20px;
+
+}
+/*------------Testimonial-------------*/
+.team{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    
+}
+.team .box{
+    background: hsl(219, 30%, 18%);
+    width: calc(28% - 15px);
+    padding: 20px;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+    display: grid;
+}
+.team .box .content{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    padding-top: 10px;
+}
+.box .info .name{
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.box .info .job{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+
+}
+.box .content .image{
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    
+}
+.image img{
+    height: 15%;
+    width: 15%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.box .info{
+    color:white;
+    margin-top: 1px;
+}
+.last-box{
+    background: hsl(219, 30%, 18%);
+    width: 40%;
+    
+    border-radius: 3px;
+    color: white;
+    margin: 50px 5px 2px 350px;
+    text-align: center;
+    padding: 15px 15px;
+
+}
+.action{
+    padding: 10px 10px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+   border-radius: 50px;
+  background-color: hsl(198, 60%, 50%);  
+  cursor: pointer;
+
+}
+
+
+.form-control{
+    margin: 2px 10px 5px 10px;
+    border: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 15px 50px;
+}
+
+/*------------footer-------------*/
+.footer
+{
+    display: inline-flex;
+    flex-flow:  row;
+    padding: 20px;
+    font-size: 14;
+    background-color: hsl(216, 53%, 9%);
+    color: white;
+    width: 100%;
+    text-align: justify;
+    }
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left{
+margin-right: 1.25cm;
+margin-bottom: .5cm;}
+.footer-left img
+{ 
+    height: 20px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: .7cm;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    
+    
+    display: inline-flex;
+}
+
+.footer-right
+    {margin-right: .2cm;
+margin-bottom: .5cm;
+    flex: 1 50%;
+}
+.con a{
+    color: white;
+    padding: 10px;
+}
+.features a{
+    color: white;
+    padding: 10px;
+}
+.contact a{
+    color: white;
+    padding: 10px;
+}
+.footer-left p{
+    padding-right: 20%;
+}
+.attribution{
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:550px) {
+
+    .top-nav-bar
+{
+    height: 57px;
+    border-bottom: 1px;
+}
+.menu-bar
+{
+    width: 100%;
+}
+.menu-bar ul
+{
+    margin: 10px 0;
+    width: 100%;
+}
+.menu-bar ul li
+{
+    height: 57px;
+    width: 100%;
+}
+.aligncenter
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+}
+
+.button{
+margin: 0 155px 0 198px;
+
+
+}
+.objective{
+    width: 90%;
+    display: flex;
+}
+.icon{
+    width: 100%;
+    display: grid;
+    margin: 0 50px 0 50px;
+
+}
+.aim{
+    width: 90%;
+    display: grid;
+}
+.stay{
+    flex-flow: row wrap;
+text-align: center;
+    margin: 20px;
+    display: grid;
+    width: 100%;
+text-align: center;
+    }
+.stay img{
+
+    padding-right: 50px;
+    padding-left: 90px;}
+.stay p{
+    text-align: center;
+
+}
+
+    .team{
+        display: grid;
+        padding: 5px 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .team .box{
+
+        width: 100%;
+        padding: 1px;
+        border-radius: 3px;
+        margin: 10px 50px 15px 20px;
+
+    }
+    
+    
+    .last-box{
+        width: 100%;
+        padding: 10px 10px;
+        margin-left: 5%;
+        margin-right: 500%;
+    }
+    .action{
+        padding: 10px 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+      cursor: pointer;
+    
+    }
+    
+    .form-control{
+        width: 50%;}
+    
+
+        .footer
+        {
+            display: grid;
+            width: 100%;
+           
+            }
+        .footer > *{
+            flex: 1 70%;
+        }
+        .footer-left{
+        margin-right: 1.25cm;
+        margin-bottom: .5cm;}
+        .footer-left img
+        { 
+            height: 20px;
+        }
+        .footer ul{
+            list-style: none;
+            padding-left: 0;
+        }
+        .footer li{
+            line-height: .7cm;
+        }
+        .footer a{
+            text-decoration: none;
+        }
+        .footer-right{
+            
+            
+            display: inline-flex;
+        }
+        
+        .footer-right
+            {margin-right: .2cm;
+        margin-bottom: .5cm;
+            flex: 1 50%;
+        }
+        .con a{
+            color: white;
+            padding: 10px;
+        }
+        .features a{
+            color: white;
+            padding: 10px;
+        }
+        .contact a{
+            color: white;
+            padding: 10px;
+        }
+        .footer-left p{
+            padding-right: 20%;
+        }
+        .attribution{
+            color: white;
+            text-align: center;
+        }
+        
+
+}
+
+
+
